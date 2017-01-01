@@ -21,10 +21,10 @@
       }
     },
     "versionFirst": "3.9.2",
-    "uniqCompNum": 38,
-    "versionPublish": "3.9.2",
-    "publishType": "local",
-    "publishPath": "file:///C:/00rr"
+    "uniqCompNum": 87,
+    "versionPublish": "3.10.5",
+    "path": "@PROJECT_PATH@",
+    "screenshot": "screenshot.png"
   },
   "pages": {
     "index.html": {
@@ -34,7 +34,8 @@
         "meta_descr": "Curso de Diseño de Permacultura PDC, Permaculture Design Curse",
         "header_custom": "",
         "footer_custom": "",
-        "html_before": ""
+        "html_before": "",
+        "order": 2
       },
       "components": [
         {
@@ -46,34 +47,34 @@
               "color": "#ffffff"
             },
             ".navbar-toggler": {
-              "color": "#ffffff"
+              "color": "#f40f0b"
             },
             ".close-icon::before, .close-icon::after": {
-              "background-color": "#ffffff"
+              "background-color": "#f40f0b"
             },
             ".link, .dropdown-item": {
-              "color": "#ffffff"
+              "color": "#f40f0b"
             },
             ".link": {
-              "font-size": "0.75rem"
+              "font-size": "0.85rem"
             },
             ".dropdown-item, .nav-dropdown-sm .link": {
-              "font-size": "0.812rem"
+              "font-size": "0.921rem"
             },
             ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
               "color": "@primaryColor"
             },
             ".link[aria-expanded=\"true\"], .dropdown-menu": {
-              "background": "#0e0e0e"
+              "background": "#f4ce34"
             },
             ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
-              "background": "#202020!important"
+              "background": "#f6d755!important"
             },
             ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
-              "background": "#282828"
+              "background": "#f7da64"
             },
             ".bg-color.transparent .link": {
-              "color": "#ffffff",
+              "color": "#f40f0b",
               "transition": "none"
             },
             ".bg-color.transparent.opened .link": {
@@ -92,10 +93,10 @@
           "_name": "menu",
           "_anchor": "menu-5",
           "_params": {
-            "bgColor": "#282828",
-            "fontSize": 0.75,
+            "bgColor": "#f7da64",
+            "fontSize": "0.85",
             "fontName": {},
-            "fontColor": "#ffffff",
+            "fontColor": "#f40f0b",
             "fontHoverColor": "@primaryColor",
             "transparent": true,
             "sticky": true,
@@ -119,7 +120,27 @@
             }
           },
           "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"></a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">COMENZAR</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"talleres.html\">TALLERES</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\"></a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\">CDP</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Curso de Permacultura</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Modulos</a><div class=\"dropdown\"><a data-app-btn=\"true\" class=\"dropdown-item dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\">Detalles Practicos</a><div class=\"dropdown-menu dropdown-submenu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Image/content slider</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Contact forms</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Image gallery</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Mobile menu</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Google maps</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Social buttons</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Google fonts</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Video background</a></div></div><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\"></a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\">CONTACTO</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Mapa</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Contacto</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">COMENZAR</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Asesorias.html\">ASESORIAS</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"talleres.html\">TALLERES</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"encuesta.html\">ENCUESTAS</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\">CDP</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Curso de Permacultura</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Modulos</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\"></a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\">CONTACTO</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Mapa</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"contact.html\">Contacto</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\"></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "footer1",
+          "_anchor": "footer1-1h",
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#323232",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#444444"
+          },
+          "text": "Copyright (c) 2016 Mobirise."
         },
         {
           "_tags": [
@@ -146,16 +167,16 @@
             "timeout": 5,
             "slides": [
               {
-                "active": false,
+                "active": true,
                 "image": "@PROJECT_PATH@/assets/images/b1-2000x1284-82.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "overlay": true,
                 "contentAlign": "center",
                 "showTitle": true,
-                "title": "Curso de Diseño de Permacultura",
+                "title": "<br><div><br></div>Proximos Talleres click liga talleres<div>Taller cocina cohete&nbsp;</div>5 de Enero 2017 y<div>Taller Preparacion de probióticos 6 de<span style=\"line-height: 1.1;\">Enero 2017</span></div><div>para mejorar tu calidad de vida y salud&nbsp;<br></div>",
                 "showText": true,
-                "text": "de Marzo 5 a Marzo 20 2017<br>Santa Elena de Uairien&nbsp;<br>",
+                "text": "<br>Taller cocina cohete jueves 5 de Enero 2017 <br>de 8:30 am 12:00 pm<br>Casa de la Cultura<br>Taller de probióticos viernes 6 de Enero 2017 <br>de 8:30 am 1:00 pm<br>Casa de la Cultura<br>rodotravels@gmail.com<br>nailaosio@gmail.com<br>Naila: (58) 04164907832<br>Rodolfo (58) 04249291277<br><br><br>",
                 "showButtons": false,
                 "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-success\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
               },
@@ -181,21 +202,21 @@
                 "overlay": true,
                 "contentAlign": "left",
                 "showTitle": true,
-                "title": "Clases y talleres de Permacultura",
+                "title": "Clases y talleres de Permacultura&nbsp;",
                 "showText": true,
                 "text": "Taller Cocina cohete casera, Charlaa Pueblos en transicion y El taller de probióticos<br>&nbsp;Diciembre 10 2017&nbsp;Santa Elena de Uairien&nbsp;<br>rodotravels@gmail.com<br>nailaosiogmal.com<br>Naila:  (58) 04164907832<br>Rodolfo (58) 04249291277<br>",
                 "showButtons": false,
                 "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
               },
               {
-                "active": true,
+                "active": false,
                 "image": "@PROJECT_PATH@/assets/images/b3-2000x1270-11-2000x1270-15.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "overlay": true,
                 "contentAlign": "center",
                 "showTitle": true,
-                "title": "Curso de Diseño de Permacultura",
+                "title": "Curso de Diseño de Permacultura y<br>Encuesta Curso de Diseño de Permacultura",
                 "showText": true,
                 "text": "de Marzo 5 a Marzo 20 2017<br>Santa Elena de Uairien&nbsp;<br>rodotravels@gmail.com<br>nailaosiogmal.com<br>Naila:  (58) 04164907832<br>Rodolfo (58) 04249291277<br>",
                 "showButtons": false,
@@ -208,6 +229,75 @@
           },
           "_anchor": "slider-6",
           "articleLayout": false
+        },
+        {
+          "_inherit": "social-buttons1",
+          "_styles": {
+            ".mbr-section-title, .btn-social": {
+              "color": "#fff"
+            },
+            ".mbr-section-title P": {
+              "font-size": "20px"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "social-buttons3",
+          "_anchor": "social-buttons3-1g",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#2e2e2e",
+            "bgColorRadio": true,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "facebook": true,
+            "twitter": true,
+            "google": true,
+            "vkontakte": false,
+            "odnoklassniki": false
+          },
+          "text": "<p>COMPARTE ESTA PAGINA</p>"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header3",
+          "_anchor": "header3-1e",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#fff",
+            "showMeta": true
+          },
+          "title": "Encuesta Curso de Diseño de Permacultura",
+          "meta": "en Santa Elena de Uairien 2017"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content7",
+          "_anchor": "content7-1f",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#fff"
+          },
+          "text1": "<p>Para servir mejor los intereses de aprendizaje de los Participantes</p><p>¿Que es un Curso de Diseño de Permacultura (CDP)?</p><p>Es una Capacitación en Sistemas para diseñar entornos (tu casa, conuco, terreno, granja, finca, cultivo, cocina, oficina, lugar de trabajo, negocio etc.,) funcionales, prácticos y ecológicos. Utilizando principios, estrategias, métodos de Permacultura para mejorar tu calidad de vida y de tu familia en alimentación, salud, vivienda, economía familiar y generación de energía con ahorros 9significativos y otras necesidades materiales y no materiales tu vida.</p><p>días consecutivos</p><p>¿Qué fecha sería mejor de las siguientes?</p><blockquote>23 de Enero a 7 de Febrero del 2017</blockquote><blockquote>5 de Marzo a 20 de Marzo del 2017</blockquote><p>¿Cuales son las principales temas tópicos que curso de diseño de Permacultura te interesa aprender?</p><p><br></p>",
+          "text2": "¿Cuáles son tu intereses a mediano y largo plazo en lo que respecta a?<div>•\t¿Producción casera de alimentos: hortalizas, frutales, tierra fértil, aves y animales pequeños?</div><div>•\tProducción casera de energía o ahorro de la misma: para cocinar, luz, agua, refrigeración&nbsp;</div><div>•\tDiseño de bioconstrucción de cabañas y eco viviendas o ¿como hacer tu vivienda actual más ecológica?</div><div>•\tManejo de desechos y descontaminación del tu entorno</div><div>•\tEstrategias de agua de riego, agua gris y negra y/o manejo de desechos ecológico</div><div>•\t¿Otras?</div><div>•\t¿Cuanto tiempo de práctica en el campo prefieres 20% 30% o hasta 50% del total del tiempo de cada día del curso?</div><div>El curso incluye te y o café y algunas frutas para los descansos intermedios.</div><div>¿Qué prefieres con respecto al desayuno y almuerzo, y para mantener un costo bajo.</div>Por 15 dias<div>a) Incluye desayuno y almuerzo&nbsp;</div><div>b) Solo incluye almuerzo&nbsp;</div><div>c) Traes tu propio almuerzo a (implica ya vienes desayunado)</div><div>Estas opciones influyen en el costo del curso.</div><div>No incluye cena</div><div><br></div><div><br></div>",
+          "text3": "<p></p><p>&nbsp;¿Qué ventaja tiene tomar un Curso de Diseño de Permacultura (CDP) ?</p><p>1.\tMejorar la calidad de vida sin gastar más.</p><p>2.\tAhorrar en costos de vida y trabajo de labores diarias.</p><p>3.\tConociciertos significativos y prácticos de integrar la Permacultura en tu vida diaria.</p><p>4.\tHabilidades para desarrollar alternativas viables que reemplacen prácticas locales perjudiciales</p><p>5.\tHerramientas para desarrollar actividades que generen ingresos más sustentables y ecológicamente sanas.</p><p>6.\tHerramientas para encaminar a tu comunidad hacia estilos de vida más saludables y ecológicos.</p><p>7.\tMuchas mas no listadas por ahora.</p><p><br></p><p>La inversión es de el EQUIVALENTE EN BOLIVARES DE &nbsp;$9 dólares POR DIA con desayuno y almuerzo&nbsp;</p><p>opcion B</p><p>La inversión es de EL EQUIVALENTE EN BOLIVARES DE $8 dólares POR DIA &nbsp;con Solo. almuerzo.</p><div><span style=\"font-size: 1.07rem; line-height: 1.5;\">•\tCuaderno y materiales para escribir</span><span style=\"font-size: 1.07rem; line-height: 1.5;\">La inversion es el EQUIVALENTE EN BOLIVARES D E</span><span style=\"font-size: 1.07rem; line-height: 1.5;\">$110 dólares sin comidas pero incluye cafe te y algunas frutas.</span><br><p><span style=\"font-size: 1.07rem; line-height: 1.5;\"><br></span></p><p>La inversión te otorga los siguientes materiales:</p><p>•\tIngredientes</p><p>•\tAlgunas semillas<span style=\"font-size: 1.07rem; line-height: 1.5;\">•\tHojas grandes para proyectos</span></p><p>•\tMarcadores</p><p>•\tMateriales para hacer demostraciones de Permacultura</p><p>•\tCopias para que no pierdas tiempo en anotar las técnicas de&nbsp;</p><p>•\tCopias de tablas y datos.</p><p>•\tBiblioteca digital traer tu memoria USB</p><p>•\tSitios de internet</p><p>•\t*Apoyo técnico limitado en proyectos caseros.</p><p>•\tExhibición de documentales</p><p><br></p><p></p></div>"
         },
         {
           "_styles": {
@@ -333,9 +423,10 @@
             "overlayOpacity": 0.8,
             "overlayColor": "#3C3C3C",
             "googleMap": {
-              "placeId": "ChIJn6wOs6lZwokRLKy1iqRcoKw",
-              "address": "350 5th Ave, New York, NY 10118",
-              "state": "ok"
+              "address": "Calle Ikabarú,  Santa Elena de Uairen Venezuela",
+              "placeId": "ChIJn0ExY7zvv40RpcRaKv5LU-0",
+              "state": "ok",
+              "stateDetails": ""
             }
           },
           "text1": "<font color=\"#7c7c7c\" face=\"Montserrat, sans-serif\" size=\"3\"><span style=\"letter-spacing: -1px; line-height: 20px;\"><b>Direccion</b></span></font><br><font color=\"#7c7c7c\" face=\"Montserrat, sans-serif\" size=\"3\"><span style=\"letter-spacing: -1px; line-height: 20px;\"><b><br></b></span></font>El Curso de Diseño se llevara a cabo en <br>los alrededores de Santa Elena de Uierien.<br><br><br>\n<strong>Contactos</strong><br>rodotravels@gmail.com<br>nailaosiogmal.com<br>Naila: &nbsp;(58)&nbsp;04164907832<br>Rodolfo (58)&nbsp;04249291277",
@@ -346,7 +437,8 @@
     "contact.html": {
       "settings": {
         "title": "Curso de Diseño de Permacultura Santa Elena de Uairien Marzo 5-20 2017",
-        "meta_descr": "Curso de Diseño de Permacultura PDC, Permaculture Design Curse"
+        "meta_descr": "Curso de Diseño de Permacultura PDC, Permaculture Design Curse",
+        "order": 1
       },
       "components": [
         {
@@ -358,13 +450,13 @@
               "color": "#ffffff"
             },
             ".navbar-toggler": {
-              "color": "#ffffff"
+              "color": "#000000"
             },
             ".close-icon::before, .close-icon::after": {
-              "background-color": "#ffffff"
+              "background-color": "#000000"
             },
             ".link, .dropdown-item": {
-              "color": "#ffffff"
+              "color": "#000000"
             },
             ".link": {
               "font-size": "0.75rem"
@@ -385,7 +477,7 @@
               "background": "#282828"
             },
             ".bg-color.transparent .link": {
-              "color": "#ffffff",
+              "color": "#000000",
               "transition": "none"
             },
             ".bg-color.transparent.opened .link": {
@@ -405,9 +497,9 @@
           "_anchor": "menu-b",
           "_params": {
             "bgColor": "#282828",
-            "fontSize": 0.75,
+            "fontSize": "0.85",
             "fontName": {},
-            "fontColor": "#ffffff",
+            "fontColor": "#f40f0b",
             "fontHoverColor": "@primaryColor",
             "transparent": true,
             "sticky": true,
@@ -431,40 +523,42 @@
             }
           },
           "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"></a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">COMENZAR</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"talleres.html\">TALLERES</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\"></a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\">CDP</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Curso de Permacultura</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Modulos</a><div class=\"dropdown\"><a data-app-btn=\"true\" class=\"dropdown-item dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\">Detalles Practicos</a><div class=\"dropdown-menu dropdown-submenu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Image/content slider</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Contact forms</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Image gallery</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Mobile menu</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Google maps</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Social buttons</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Google fonts</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Video background</a></div></div><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\"></a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\">CONTACTO</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Mapa</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Contacto</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">COMENZAR</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Asesorias.html\">ASESORIAS</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"talleres.html\">TALLERES</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"encuesta.html\">ENCUESTAS</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\">CDP</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Curso de Permacultura</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Modulos</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\"></a></div></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"mas.html\" aria-expanded=\"true\" data-toggle=\"dropdown-submenu\">MAS</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Proyectos Actuales</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\" aria-expanded=\"false\">ACERCADE</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\">CONTACTO</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Mapa</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"contact.html\">Contacto</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\"></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
         },
         {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box1",
           "_styles": {
-            ".mbr-section-title, .mbr-section-subtitle": {
-              "text-align": "center"
+            "H3": {
+              "font-size": "24px"
             }
           },
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "header3",
-          "_anchor": "header3-d",
+          "_anchor": "msg-box1-20",
           "_params": {
-            "paddingTop": 1,
-            "paddingBottom": 1,
-            "bgColor": "#fff",
-            "showMeta": true
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#F2F2F2",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "inverse": false,
+            "showButtons": false,
+            "showText": true,
+            "showTitle": true
           },
-          "title": "Title with Solid Background Color",
-          "meta": "By John Smith posted July 20, 2016"
-        },
-        {
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "content2",
-          "_anchor": "content2-e",
-          "_params": {
-            "paddingTop": 1,
-            "paddingBottom": 1,
-            "bgColor": "#fff"
-          },
-          "text": "<blockquote>Make your own website in a few clicks! Mobirise helps you cut down development time by providing you with a flexible website editor with a drag and drop interface. MobiRise Website Builder creates responsive, retina and mobile friendly websites in a few clicks. Mobirise is one of the easiest website development tools available today. It also gives you the freedom to develop as many websites as you like given the fact that it is a desktop app.</blockquote>"
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">SEE LIVE DEMO</a>",
+          "text": "",
+          "title": "rodotravels@gmail.com<div>nailaosio@gmail.com</div><div>Naila: (58) 04164907832</div><div>Rodolfo (58) 04249291277</div>"
         },
         {
           "_tags": [
@@ -476,7 +570,7 @@
               "color": "#232323"
             }
           },
-          "_anchor": "form1-f",
+          "_anchor": "form1-23",
           "_params": {
             "labelsColor": "#232323",
             "paddingTop": 3,
@@ -490,9 +584,9 @@
             "overlayOpacity": 0.5,
             "overlayColor": "#222",
             "showTitle": true,
-            "showSubTitle": true
+            "showSubTitle": false
           },
-          "title": "CONTACT FORM",
+          "title": "&nbsp;FORMA DE CONTACTO",
           "subtitle": "Shape your future web project with sharp design and refine coded functions.",
           "form": {
             "action": "edmohena@juno.com",
@@ -508,12 +602,12 @@
               "email": {
                 "title": "Email",
                 "visible": true,
-                "customTitle": "Email, correo"
+                "customTitle": "Email*"
               },
               "phone": {
                 "title": "Phone",
                 "visible": true,
-                "customTitle": "Cel, tel."
+                "customTitle": "Phone"
               },
               "message": {
                 "title": "Message",
@@ -521,14 +615,41 @@
               }
             }
           },
-          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-primary\">CONTACT US</a>"
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-primary\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">CONTACT US</a>"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, .btn-social": {
+              "color": "#232323"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "social-buttons2",
+          "_anchor": "social-buttons2-22",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": true,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/landscape3.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222"
+          },
+          "text": "FOLLOW US",
+          "icons": "<a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Twitter\" target=\"_blank\" href=\"https://twitter.com/mobirise\"><i class=\"socicon socicon-twitter\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Facebook\" target=\"_blank\" href=\"https://www.facebook.com/pages/Mobirise/1616226671953247\"><i class=\"socicon socicon-facebook\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Google+\" target=\"_blank\" href=\"https://plus.google.com/u/0/+Mobirise/posts\"><i class=\"socicon socicon-google\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"YouTube\" target=\"_blank\" href=\"https://www.youtube.com/channel/UCt_tncVAetpK5JeM8L-8jyw\"><i class=\"socicon socicon-youtube\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Instagram\" target=\"_blank\" href=\"https://instagram.com/mobirise/\"><i class=\"socicon socicon-instagram\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Pinterest\" target=\"_blank\" href=\"https://www.pinterest.com/mobirise/\"><i class=\"socicon socicon-pinterest\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Tumblr\" target=\"_blank\" href=\"http://mobirise.tumblr.com/\"><i class=\"socicon socicon-tumblr\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"LinkedIn\" target=\"_blank\" href=\"https://www.linkedin.com/in/mobirise\"><i class=\"socicon socicon-linkedin\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"VKontakte\" target=\"_blank\" href=\"#\"><i class=\"socicon socicon-vkontakte\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Odnoklassniki\" target=\"_blank\" href=\"#\"><i class=\"socicon socicon-odnoklassniki\"></i></a> "
         }
       ]
     },
     "map.html": {
       "settings": {
         "title": "Curso de Diseño de Permacultura Santa Elena de Uairien Marzo 5-20 2017",
-        "meta_descr": ""
+        "meta_descr": "",
+        "order": 3
       },
       "components": [
         {
@@ -589,7 +710,7 @@
             "bgColor": "#282828",
             "fontSize": 0.75,
             "fontName": {},
-            "fontColor": "#ffffff",
+            "fontColor": "#000000",
             "fontHoverColor": "@primaryColor",
             "transparent": true,
             "sticky": true,
@@ -613,7 +734,7 @@
             }
           },
           "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"></a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">COMENZAR</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"talleres.html\">TALLERES</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\"></a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\">CDP</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Curso de Permacultura</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Modulos</a><div class=\"dropdown\"><a data-app-btn=\"true\" class=\"dropdown-item dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\">Detalles Practicos</a><div class=\"dropdown-menu dropdown-submenu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Image/content slider</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Contact forms</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Image gallery</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Mobile menu</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Google maps</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Social buttons</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Google fonts</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Video background</a></div></div><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\"></a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\">CONTACTO</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Mapa</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Contacto</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">COMENZAR</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Asesorias.html\">ASESORIAS</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"talleres.html\">TALLERES</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"encuesta.html\">ENCUESTAS</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\">CDP</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Curso de Permacultura</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Modulos</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\"></a></div></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"true\">CONTACTO</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Mapa</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"contact.html\">Contacto</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\"></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
         },
         {
           "_tags": [
@@ -631,124 +752,10 @@
         }
       ]
     },
-    "page4.html": {
-      "settings": {},
-      "components": [
-        {
-          "_styles": {
-            ".hide-buttons .nav-btn": {
-              "display": "none !important"
-            },
-            ".navbar-caption": {
-              "color": "#ffffff"
-            },
-            ".navbar-toggler": {
-              "color": "#ffffff"
-            },
-            ".close-icon::before, .close-icon::after": {
-              "background-color": "#ffffff"
-            },
-            ".link, .dropdown-item": {
-              "color": "#ffffff"
-            },
-            ".link": {
-              "font-size": "0.75rem"
-            },
-            ".dropdown-item, .nav-dropdown-sm .link": {
-              "font-size": "0.812rem"
-            },
-            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
-              "color": "@primaryColor"
-            },
-            ".link[aria-expanded=\"true\"], .dropdown-menu": {
-              "background": "#0e0e0e"
-            },
-            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
-              "background": "#202020!important"
-            },
-            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
-              "background": "#282828"
-            },
-            ".bg-color.transparent .link": {
-              "color": "#ffffff",
-              "transition": "none"
-            },
-            ".bg-color.transparent.opened .link": {
-              "transition": "color .2s ease-in-out"
-            },
-            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
-              "color": "@primaryColor"
-            },
-            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
-              "color": "#c0a375!important"
-            }
-          },
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "menu",
-          "_anchor": "menu-p",
-          "_params": {
-            "bgColor": "#282828",
-            "fontSize": 0.75,
-            "fontName": {},
-            "fontColor": "#ffffff",
-            "fontHoverColor": "@primaryColor",
-            "transparent": true,
-            "sticky": true,
-            "logo": false,
-            "showBrand": false,
-            "collapsed": true,
-            "hideButtons": true
-          },
-          "logo": {
-            "image": {
-              "active": true,
-              "src": "@THEME_PATH@/components/_images/logo.png",
-              "height": 128,
-              "alt": "Mobirise",
-              "link": "https://mobirise.com"
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-menu",
-              "link": "https://mobirise.com",
-              "size": 0
-            }
-          },
-          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"></a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">COMENZAR</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"talleres.html\">TALLERES</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\"></a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\">CDP</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Curso de Permacultura</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Modulos</a><div class=\"dropdown\"><a data-app-btn=\"true\" class=\"dropdown-item dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\">Detalles Practicos</a><div class=\"dropdown-menu dropdown-submenu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Image/content slider</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Contact forms</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Image gallery</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Mobile menu</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Google maps</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Social buttons</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Google fonts</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Video background</a></div></div><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\"></a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\">CONTACTO</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Mapa</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Contacto</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
-        },
-        {
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "contacts2",
-          "_anchor": "contacts2-q",
-          "_params": {
-            "paddingTop": 3,
-            "paddingBottom": 3,
-            "bgImageRadio": false,
-            "parallax": true,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#2e2e2e",
-            "bgColorRadio": true,
-            "overlay": true,
-            "overlayOpacity": 0.8,
-            "overlayColor": "#3C3C3C",
-            "googleMap": {
-              "placeId": "ChIJn6wOs6lZwokRLKy1iqRcoKw",
-              "address": "350 5th Ave, New York, NY 10118",
-              "state": "ok"
-            }
-          },
-          "text1": "<font color=\"#7c7c7c\" face=\"Montserrat, sans-serif\" size=\"3\"><span style=\"letter-spacing: -1px; line-height: 20px;\"><b>Direccion</b></span></font><br><font color=\"#7c7c7c\" face=\"Montserrat, sans-serif\" size=\"3\"><span style=\"letter-spacing: -1px; line-height: 20px;\"><b><br></b></span></font>El Curso de Diseño se llevara a cabo en <br>los alrededores de Santa Elena de Uierien.<br><br><br>\n<strong>Contactos</strong><br>rodotravels@gmail.com<br>nailaosiogmal.com<br>Naila: &nbsp;(58)&nbsp;04164907832<br>Rodolfo (58)&nbsp;04249291277",
-          "text2": "<strong>sitio &nbsp;bajo construccion</strong><ul><br><br></ul>"
-        }
-      ]
-    },
     "talleres.html": {
       "settings": {
-        "title": "talleres"
+        "title": "talleres",
+        "order": 5
       },
       "components": [
         {
@@ -809,7 +816,7 @@
             "bgColor": "#282828",
             "fontSize": 0.75,
             "fontName": {},
-            "fontColor": "#ffffff",
+            "fontColor": "#000000",
             "fontHoverColor": "@primaryColor",
             "transparent": true,
             "sticky": true,
@@ -833,7 +840,7 @@
             }
           },
           "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"></a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">COMENZAR</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"talleres.html\">TALLERES</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\"></a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\">CDP</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Curso de Permacultura</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Modulos</a><div class=\"dropdown\"><a data-app-btn=\"true\" class=\"dropdown-item dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\">Detalles Practicos</a><div class=\"dropdown-menu dropdown-submenu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Image/content slider</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Contact forms</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Image gallery</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Mobile menu</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Google maps</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Social buttons</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Google fonts</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Video background</a></div></div><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\"></a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\">CONTACTO</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Mapa</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Contacto</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">COMENZAR</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Asesorias.html\">ASESORIAS</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"talleres.html\">TALLERES</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"encuesta.html\">ENCUESTAS</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\">CDP</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Curso de Permacultura</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Modulos</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\"></a></div></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"true\">CONTACTO</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Mapa</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"contact.html\">Contacto</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\"></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
         },
         {
           "_styles": {
@@ -841,7 +848,8 @@
               "color": "#fff"
             },
             ".mbr-section-title": {
-              "text-align": "center"
+              "text-align": "center",
+              "font-size": "46px"
             }
           },
           "_tags": [
@@ -854,7 +862,7 @@
             "paddingBottom": 3,
             "bgImageRadio": true,
             "parallax": true,
-            "bgImage": "@THEME_PATH@/components/_images/desert2.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/b8-2000x1250-46.jpg",
             "bgColor": "#fff",
             "bgColorRadio": false,
             "bgVideo": {
@@ -867,8 +875,8 @@
             "showTitle": true,
             "showCaption": true
           },
-          "title": "Talleres para mejorar tu calidad de vida y ahorrar en tu economia",
-          "caption": "<p>Por favor tenga en cuenta que estos talleres cuestan en promedio $30 - $50 dolares y se ofrecen solo a solo 3000 bvs un costo bajo por unica vez. Espero se valoren y les sirvan por muho tiempo. Gracis por atender.</p>"
+          "title": "Proximos Talleres en Enero<br>Taller cocina cohete casera <br>&nbsp;y ahorrar en tu economia<br>Taller Preparacion de probióticos&nbsp;<div><span style=\"font-size: 3rem; line-height: 1.1;\">para mejorar tu calidad de vida y salud</span><br></div>",
+          "caption": ""
         },
         {
           "_styles": {
@@ -887,7 +895,7 @@
             "bgColor": "#fff",
             "showMeta": true
           },
-          "title": "Taller  estufa cohete casera <br>Sabado 10 de Dic. 8:30 am<br>Casa de la Cultura",
+          "title": "Taller cocina cohete casera <br>jueves 5 de Enero 2017 <br>de 8:30 am 12:00 pm<br>Casa de la Cultura",
           "meta": ""
         },
         {
@@ -901,7 +909,73 @@
             "paddingBottom": 1,
             "bgColor": "#fff"
           },
-          "text": "<blockquote>Se trata de una tecnología apropiada muy revolucionaria en cuanto al aprovechamiento eficiente de la leña, la cual asegura una combustión completa.</blockquote><blockquote>Esta tecnología logra reducir la cantidad de leña utilizada, llevar a cero la emanación de humo y disminuir a un tercio la expulsión de dióxido de carbono al ambiente. De esta manera se logra aumentar la comodidad del usuario y mitigar el impacto ambiental.</blockquote><blockquote>Objetivos</blockquote><blockquote>En este taller nos enfocaremos en trasmitir el conocimiento practico necesario para empoderarse de la tecnología rocket. Este aprendizaje les dará la base para sistemas de aprovechamiento calórico, como estufas y cocinas tipo rocket.</blockquote><blockquote>Beneficios</blockquote><blockquote>Dado el problema de combustibles en Venezuela nos da gusto en compartir esta tecnología que permite ahorrar dinero, tiempo y combustibles y cconservar los bosques en un estado saludable, ayudando así a conservar la biodiversidad de los ecosistemas.</blockquote><blockquote>•\tCocina rápido</blockquote><blockquote>•\tMateriales se consiguen gratis.</blockquote><blockquote>•\tEl uso de esta tecnología nos ayuda directamente a cuidar nuestra salud, porque nos permite respirar aire mas limpio al no producir monóxido de carbono</blockquote><blockquote>El material de combustión requerido podrían ser sólo podas, ramas caídas o incluso piñas de algún pino. Con esto queremos decir que no necesitaríamos cortar más árboles para obtener nuestra leña.</blockquote><blockquote>Al reunirnos repartiremos semillas de conocimiento que pulsaran la conservación y regeneración de nuestra madre tierra.</blockquote><br><blockquote>Costo 3000 bvs</blockquote>"
+          "text": "<blockquote>Se trata de una tecnología apropiada muy revolucionaria en cuanto al aprovechamiento eficiente de la leña, la cual asegura una combustión completa.</blockquote><blockquote>Esta tecnología logra reducir la cantidad de leña utilizada, llevar a cero la emanación de humo y disminuir a un tercio la expulsión de dióxido de carbono al ambiente. De esta manera se logra aumentar la comodidad del usuario y mitigar el impacto ambiental.</blockquote><blockquote>Objetivos</blockquote><blockquote>En este taller nos enfocaremos en trasmitir el conocimiento practico necesario para empoderarse de la tecnología rocket. Este aprendizaje les dará la base para sistemas de aprovechamiento calórico, como estufas y cocinas tipo rocket.</blockquote><blockquote>Beneficios</blockquote><blockquote>Dado el problema de combustibles en Venezuela nos da gusto en compartir esta tecnología que permite ahorrar dinero, tiempo y combustibles y cconservar los bosques en un estado saludable, ayudando así a conservar la biodiversidad de los ecosistemas.</blockquote><blockquote>•\tCocina rápido</blockquote><blockquote>•\tMateriales se consiguen gratis.</blockquote><blockquote>•\tEl uso de esta tecnología nos ayuda directamente a cuidar nuestra salud, porque nos permite respirar aire mas limpio al no producir monóxido de carbono</blockquote><blockquote>El material de combustión requerido podrían ser sólo podas, ramas caídas o incluso piñas de algún pino. Con esto queremos decir que no necesitaríamos cortar más árboles para obtener nuestra leña.</blockquote><blockquote>Al reunirnos repartiremos semillas de conocimiento que pulsaran la conservación y regeneración de nuestra madre tierra.</blockquote><blockquote>Inversión &nbsp;6000 Bolivares o transferencia</blockquote>"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header3",
+          "_anchor": "header3-1b",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#fff",
+            "showMeta": true
+          },
+          "title": "Taller de probióticos&nbsp;<br>Sabado 10 de Dic. 12:00 pm<div>Casa de la Cultura</div>",
+          "meta": "¡Enriquece  tu sistema Inmunológico con Alimentos Ricos en Probióticos!"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content2",
+          "_anchor": "content2-1d",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#fff"
+          },
+          "text": "<blockquote>¿A quien va dirigido el taller?</blockquote><blockquote>El taller de probióticos va dirgido a todas aquellas personas que deseen o necesiten:</blockquote><blockquote>•\tMejorar su salud y la de sus hijos</blockquote><blockquote>•\tMejorar su digestión</blockquote><blockquote>•\tControlar el crecimiento exagerado de hongos en la piel o de candida</blockquote><blockquote>•\tAumentar la fuerza del sistema inmune</blockquote><blockquote>•\tMejorar su flora intestinal después de un tratamiento antibiótico</blockquote><blockquote>•\tBajar de peso</blockquote><blockquote>•\tCombatir la gastritis, colitis y el síndrome de colon irritable</blockquote><blockquote>•\tCombatir las alergias</blockquote><blockquote>•\tMejorar su desempeño deportivo</blockquote><blockquote>•\tAbsorber más nutrientes</blockquote><blockquote>•\tSintetizar mejor las vitaminas del complejo B</blockquote><blockquote>•\tRegenerar sus tejidos</blockquote><blockquote>•\tSanar su cuerpo</blockquote><blockquote>Objetivo</blockquote><blockquote>Que los participantes del taller puedan elaborar sus propios alimentos probióticos de manera práctica, segura y económica.</blockquote><blockquote>Práctica</blockquote><blockquote>Aprenderás a fabricar alimentos repletos de probióticos de forma practica, y degustaras algunos ya hechos.&nbsp;</blockquote><blockquote>Y conocerás nuevos sabores y olores, así como los enormes beneficios de los probióticos naturales para tu salud</blockquote><blockquote>Que incluye el taller</blockquote><blockquote>•\tRecetas via email o impresas*</blockquote><blockquote><br></blockquote><blockquote>&nbsp;Inversión 9000 Bolivares o transferencia</blockquote><blockquote><br></blockquote>"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header3",
+          "_anchor": "header3-1a",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#fff",
+            "showMeta": true
+          },
+          "title": "Comida moderna o nutrientes? &nbsp;<br>alimentos para vivir",
+          "meta": "Sabado 24 de Diciembre 9:00 AM <br>Casa de la cultura pero si no abren las puertas<br>sera en la posada Michelle<br>Informes al 04249291277"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content2",
+          "_anchor": "content2-1c",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#fff"
+          },
+          "text": "<blockquote>A quien va dirigido el taller</blockquote><blockquote>El taller de probióticos va dirgido a todas aquellas personas que deseen o necesiten:</blockquote><blockquote>•\tMejorar su salud y la de sus hijos</blockquote><blockquote>•\tMejorar su digestión</blockquote><blockquote>•\tControlar el crecimiento exagerado de hongos</blockquote><blockquote>•\tAumentar la fuerza del sistema inmune</blockquote><blockquote>•\tMejorar su flora intestinal después de un tratamiento antibiótico</blockquote><blockquote>•\tBajar de peso</blockquote><blockquote>•\tCombatir la gastritis, colitis y el síndrome de colon irritable</blockquote><blockquote>•\tCombatir las alergias</blockquote><blockquote>•\tMejorar su desempeño deportivo</blockquote><blockquote>•\tAbsorber más nutrientes</blockquote><blockquote>•\tSintetizar mejor las vitaminas del complejo B</blockquote><blockquote>•\tRegenerar sus tejidos</blockquote><blockquote>•\tSanar su cuerpo</blockquote><blockquote>Objetivo</blockquote><blockquote>Que los participantes del taller puedan elaborar sus propios alimentos probióticos de manera práctica, segura y económica.</blockquote><blockquote>Práctica</blockquote><blockquote>Aprenderás a fabricar alimentos repletos de probióticos de forma practica, y degustaras algunos ya hechos.&nbsp;</blockquote><blockquote>Y conocerás nuevos sabores y olores, así como los enormes beneficios de los probióticos naturales para tu salud</blockquote><blockquote>Que incluye el taller</blockquote><blockquote>•\tRecetas via email o impresas*</blockquote><blockquote><br></blockquote><blockquote>Costo 3000&nbsp;</blockquote><blockquote><br></blockquote>"
         },
         {
           "_styles": {
@@ -973,6 +1047,1240 @@
             "bgColor": "#fff"
           },
           "text": "<blockquote>A quien va dirigido el taller</blockquote><blockquote>El taller de probióticos va dirgido a todas aquellas personas que deseen o necesiten:</blockquote><blockquote>•\tMejorar su salud y la de sus hijos</blockquote><blockquote>•\tMejorar su digestión</blockquote><blockquote>•\tControlar el crecimiento exagerado de hongos</blockquote><blockquote>•\tAumentar la fuerza del sistema inmune</blockquote><blockquote>•\tMejorar su flora intestinal después de un tratamiento antibiótico</blockquote><blockquote>•\tBajar de peso</blockquote><blockquote>•\tCombatir la gastritis, colitis y el síndrome de colon irritable</blockquote><blockquote>•\tCombatir las alergias</blockquote><blockquote>•\tMejorar su desempeño deportivo</blockquote><blockquote>•\tAbsorber más nutrientes</blockquote><blockquote>•\tSintetizar mejor las vitaminas del complejo B</blockquote><blockquote>•\tRegenerar sus tejidos</blockquote><blockquote>•\tSanar su cuerpo</blockquote><blockquote>Objetivo</blockquote><blockquote>Que los participantes del taller puedan elaborar sus propios alimentos probióticos de manera práctica, segura y económica.</blockquote><blockquote>Práctica</blockquote><blockquote>Aprenderás a fabricar alimentos repletos de probióticos de forma practica, y degustaras algunos ya hechos.&nbsp;</blockquote><blockquote>Y conocerás nuevos sabores y olores, así como los enormes beneficios de los probióticos naturales para tu salud</blockquote><blockquote>Que incluye el taller</blockquote><blockquote>•\tRecetas via email o impresas*</blockquote><blockquote><br></blockquote><blockquote>Costo 3000&nbsp;</blockquote><blockquote><br></blockquote>"
+        }
+      ]
+    },
+    "Asesorias.html": {
+      "settings": {
+        "title": "Asesorias de Permacultura, CDP; PDC, Permaculture Design Curse",
+        "meta_descr": "Asesorias de Permacultura, Asesoramiento en Cosecha de agua, Ba secos, Bioconstruccion, Manejo de agua gris, agricultura organica, biointensiva, policultura y , manejo de la tierra, \n\nCurso de Diseño de Permacultura PDC, Permaculture Design Curse",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": "",
+        "order": 2
+      },
+      "components": [
+        {
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#ffffff"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#ffffff"
+            },
+            ".link, .dropdown-item": {
+              "color": "#ffffff"
+            },
+            ".link": {
+              "font-size": "0.75rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.812rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#0e0e0e"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#202020!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#282828"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#ffffff",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#c0a375!important"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "menu",
+          "_anchor": "menu-14",
+          "_params": {
+            "bgColor": "#282828",
+            "fontSize": 0.75,
+            "fontName": {},
+            "fontColor": "#000000",
+            "fontHoverColor": "@primaryColor",
+            "transparent": true,
+            "sticky": true,
+            "logo": false,
+            "showBrand": false,
+            "collapsed": true,
+            "hideButtons": true
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@THEME_PATH@/components/_images/logo.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com"
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"></a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">COMENZAR</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Asesorias.html\">ASESORIAS</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"talleres.html\">TALLERES</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"encuesta.html\">ENCUESTAS</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\">CDP</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Curso de Permacultura</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Modulos</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\"></a></div></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"true\">CONTACTO</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Mapa</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"contact.html\">Contacto</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\"></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "slider",
+          "_styles": {
+            "H2": {
+              "text-align": "center",
+              "font-size": "46px"
+            },
+            "P": {
+              "text-align": "center",
+              "font-family": "'PT Sans', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=PT+Sans:400,700",
+              "font-size": "24px",
+              "color": "#faaf40"
+            },
+            "SPAN": {
+              "font-size": "24px"
+            }
+          },
+          "_params": {
+            "autoplay": true,
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "timeout": 5,
+            "slides": [
+              {
+                "active": false,
+                "image": "@PROJECT_PATH@/assets/images/b1-2000x1284-82.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "overlay": true,
+                "contentAlign": "center",
+                "showTitle": true,
+                "title": "¿Qué es la Permacultura?<br>Y Asesorias de diseño",
+                "showText": true,
+                "text": "<span style=\"line-height: 1.5;\">Es la integración armoniosa de gente, tierra, agua&nbsp;</span>y otros recursos para producir tu comida, casa&nbsp;y energía y cubrir otras necesidades humanas materiales y&nbsp;no materiales de manera sostenible&nbsp;sin causar más contaminación.<br>rodotravels@gmail.com<br>nailaosiogmal.com<br>Naila: (58) 04164907832<br>Rodolfo (58) 04249291277<br>",
+                "showButtons": false,
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-success\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
+              },
+              {
+                "active": true,
+                "image": "@PROJECT_PATH@/assets/images/banasesor2-2000x1270-18.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "overlay": true,
+                "contentAlign": "right",
+                "showTitle": true,
+                "title": "Asesorias Permaculturales",
+                "showText": true,
+                "text": "Asesoramiento en Cosecha de agua, <br>Cocinas cohete, Baños secos, Bioconstruccion, <br>Manejo de agua gris, agricultura organica,<br>biointensiva, policultura, &nbsp;manejo de la tierra, <br>compostas biointensivas, fertilizantes&nbsp;organicos, creacion de tierra fertil, hortalizas intensivas y mas...<br>rodotravels@gmail.com Rodolfo (58) Naila: (58) 04164907832&nbsp;<br>",
+                "showButtons": false,
+                "buttons": " <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">FOR MAC</a>"
+              },
+              {
+                "active": false,
+                "image": "@PROJECT_PATH@/assets/images/banasesor3-2000x1291-91.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "overlay": true,
+                "contentAlign": "left",
+                "showTitle": true,
+                "title": "Clases y talleres de Permacultura",
+                "showText": true,
+                "text": "Taller Cocina cohete casera, &nbsp;&nbsp;jueves 5 de Enero 2017 <br>de 8:30 am 12:00 pm&nbsp;Casa de la Cultura<br>y El taller de probióticos&nbsp;jueves 5 de Enero 2017 <br>de 8:30 am 2:00 pm&nbsp;Casa de la Cultura<br>rodotravels@gmail.com<br>Naila:  (58) 04164907832<br>Rodolfo (58) 04249291277<br>",
+                "showButtons": false,
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
+              },
+              {
+                "active": false,
+                "image": "@PROJECT_PATH@/assets/images/banasesor1-2000x1270-65.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "overlay": true,
+                "contentAlign": "center",
+                "showTitle": true,
+                "title": "Asesorias de Permacultura",
+                "showText": true,
+                "text": "Es &nbsp;tiempo de trabajar la tierra con la&nbsp;herramienta de la&nbsp;Permacultura PARA QUE LA TIERRA TRABAJE PARA TI<br>rodotravels@gmail.com<br>Naila: (58) 04164907832<br>Rodolfo (58) 04249291277<br>",
+                "showButtons": false,
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-success\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
+              }
+            ],
+            "fullScreen": true,
+            "bgColor": "#fff",
+            "showBullets": false
+          },
+          "_anchor": "slider-15",
+          "articleLayout": false
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header3",
+          "_anchor": "header3-16",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#fff",
+            "showMeta": true
+          },
+          "title": "Asesorias y consultas de Permacultura en Venezuela",
+          "meta": "Santa Elena de&nbsp;Uairien "
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content6",
+          "_anchor": "content6-17",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#fff"
+          },
+          "text1": "<p>Asesorias y consultas en la preparacion, planeacion y diseño de sistemas de producion de alimentos, agua y tierra fertil para casas y granjas con los sistemas de diseño de Permacultura.</p><p>Se trata de mejorar la calidad de vida y mas pasar tiempo de calidad con la familia sin tener que sacrificar tu presupuesto o su tiempo.&nbsp;</p><p>Se logran grandes ahorros de papel moneda (recursos financieros), energia fisoca, viajes a la tienda, gastos de combustible, gastos de tiempo, y mas y mejor organizacion individual y familiar al tener a la mano diferentes productos alimenticios y de construccion para los diversos proyectos y mejoras de casa.</p><p>Tambien se trata de crear sistemas de produccion intensiva de alimentos, sistemas de animales, sistemas de huertos, sistemas de cosecha de agua, sistemas de hortalizas caseras que junto con otras ecotecnias como cocinas cohete y agua gris y captura de agua para riego y creacion de energia renobable mas la integracion de todos estos elementos para un minimo de supervision y maxima producion de la mejor calidad posible. Y todo esto echo de forma ecologica y con un minimo de inversion en materiales y tiempo.</p><p>Para mas informacion solicite una asesoria personalizada para su casa.</p><p><br></p><p>Consultas de diseño empiezan desde 15, 000 y 20, 000 Bolivares en adelante dependiendo de tu ubicacion y el tipo de consulta.</p><p><br></p><p><br></p><p></p><div>&nbsp;</div><p></p>",
+          "text2": "Informacion para personas interesadas en producir alimentos de primera necesidad de forma natural, autosuficiente y permanente en sus casas con sistemas de animales, sistemas de riego ecológicos, sistemas de compostas orgánicas, sistemas de producción biointensivas, sistemas de control de plagas naturales (insecticidas biológicos),&nbsp;<p><br></p><p>Además tecnologías apropiadas que son ecológicas y ahorran energía y dinero en casa, como cocinas cohete, hornos solares, bici licuadoras, y hasta paneles solares.</p><p>Incluye teoría y práctica con proyectos prácticos en aprovechamiento de agua gris, captura de agua, lombricultura, compostas rápidas, siembra de policultura, nichos de Permacultura que generen ingresos, entre otros.</p><p>Tambien talleres personalizados en cocinas cohete que son ahorradoras de combustible, biocontruccion, cosecha de agua, compostas rapidas, creacion de tierra fertil, captura de agua para riego, baños secos, sistemas de animales, colecta de agua de lluvia, agricultura biointensiva y organica y mas.</p><p>Los talleres varian de Precio de acuerdo al taller. Durante los talleres hacemos juntos para que aprendas con la practica.</p><p><br></p>Disponible en Sta. Elena de Uairien y sus comunidades vecinas.<p><br></p><p><br></p><div><br></div><div><br></div><p></p><p></p>"
+        },
+        {
+          "_inherit": "testimonials2",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "testimonials4",
+          "_styles": {
+            ".card-footer > div": {
+              "color": "#cccccc"
+            },
+            ".mbr-section-title": {
+              "color": "#b8312f"
+            }
+          },
+          "testimonial": [
+            {
+              "text": "<p>“Información valiosa, interesante, que al aplicarlos pueden generar muchos beneficios en muchos aspectos de nuestras vida.”</p>",
+              "media": {
+                "image": {
+                  "src": "@THEME_PATH@/components/_images/face3.jpg",
+                  "class": "img-circle",
+                  "height": 160,
+                  "width": 160,
+                  "active": true
+                }
+              },
+              "authorName": "Nery I.",
+              "authorBio": "User"
+            },
+            {
+              "text": "<p>“.Las clases &nbsp;y talleres son justo lo que necesitamos aqui”</p>",
+              "media": {
+                "image": {
+                  "src": "@THEME_PATH@/components/_images/face1.jpg",
+                  "class": "img-circle",
+                  "height": 160,
+                  "width": 160,
+                  "active": true
+                }
+              },
+              "authorName": "Naila",
+              "authorBio": "User"
+            },
+            {
+              "text": "\"Me encanto lo practico y sencillo de crear una pared y una cocina funcional con mis propias &nbsp;manos sin ser una experta y de forma ecologica.\"",
+              "media": {
+                "image": {
+                  "src": "@THEME_PATH@/components/_images/face2.jpg",
+                  "class": "img-circle",
+                  "height": 160,
+                  "width": 160,
+                  "active": true
+                }
+              },
+              "authorName": "&nbsp;Carolina",
+              "authorBio": "User"
+            }
+          ],
+          "_anchor": "testimonials4-18",
+          "_params": {
+            "count": 3,
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "showImages": false,
+            "showName": true,
+            "showBio": false,
+            "bgImageRadio": true,
+            "parallax": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/b3-2000x1270-11.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.2,
+            "overlayColor": "#222",
+            "showTitle": true,
+            "showSubtitle": false
+          },
+          "title": "¿Que se comenta?",
+          "subtitle": "Shape your future web project with sharp design and refine coded functions."
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "contacts2",
+          "_anchor": "contacts2-19",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#90a878",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#3C3C3C",
+            "googleMap": {
+              "placeId": "ChIJn6wOs6lZwokRLKy1iqRcoKw",
+              "address": "350 5th Ave, New York, NY 10118",
+              "state": "ok"
+            }
+          },
+          "text1": "<font color=\"#7c7c7c\" face=\"Montserrat, sans-serif\" size=\"3\"><span style=\"letter-spacing: -1px; line-height: 20px;\"><b>Direccion</b></span></font><br><font color=\"#7c7c7c\" face=\"Montserrat, sans-serif\" size=\"3\"><span style=\"letter-spacing: -1px; line-height: 20px;\"><b><br></b></span></font>El Curso de Diseño se llevara a cabo en <br>los alrededores de Santa Elena de Uierien.<br><br><br>\n<strong>Contactos</strong><br>rodotravels@gmail.com<br>nailaosiogmal.com<br>Naila: &nbsp;(58)&nbsp;04164907832<br>Rodolfo (58)&nbsp;04249291277",
+          "text2": "<strong>sitio &nbsp;bajo construccion</strong><ul><br><br></ul>"
+        }
+      ]
+    },
+    "encuesta.html": {
+      "settings": {
+        "order": 4,
+        "title": "Encuesta"
+      },
+      "components": [
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box5",
+          "_styles": {
+            "I": {
+              "font-size": "36px"
+            }
+          },
+          "_anchor": "msg-box5-1w",
+          "_params": {
+            "imageSize": 50,
+            "paddingTop": 0,
+            "paddingBottom": 0,
+            "parallax": true,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#fff",
+            "inverse": false,
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "width": 1400,
+              "src": "@THEME_PATH@/components/_images/gallery/desktop.jpg"
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-msg-box5",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title": "<br><br><i>Encuesta Curso de Diseño de Permacultura</i>&nbsp;",
+          "text": "2017",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">MORE</a>"
+        },
+        {
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#b8312f"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#b8312f"
+            },
+            ".link, .dropdown-item": {
+              "color": "#b8312f"
+            },
+            ".link": {
+              "font-size": "0.95rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "1.029rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#f4ce34"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#f6d755!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#f7da64"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#b8312f",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#c0a375!important"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "menu",
+          "_anchor": "menu-5",
+          "_params": {
+            "bgColor": "#f7da64",
+            "fontSize": "0.95",
+            "fontName": {},
+            "fontColor": "#b8312f",
+            "fontHoverColor": "@primaryColor",
+            "transparent": true,
+            "sticky": true,
+            "logo": false,
+            "showBrand": false,
+            "collapsed": true,
+            "hideButtons": true
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@THEME_PATH@/components/_images/logo.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com"
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"></a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">COMENZAR</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Asesorias.html\">ASESORIAS</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"talleres.html\">TALLERES</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"encuesta.html\">ENCUESTAS</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\">CDP</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Curso de Permacultura</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Modulos</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\"></a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\">CONTACTO</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Mapa</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"contact.html\">Contacto</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\"></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content6",
+          "_anchor": "content6-1j",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#fff"
+          },
+          "text1": "Para servir mejor los intereses de aprendizaje de los Participantes<div>¿Que es un Curso de Diseño de Permacultura (CDP)?</div><div>Es una Capacitación en Sistemas para diseñar entornos (tu casa, conuco, terreno, granja, finca, cultivo, cocina, oficina, lugar de trabajo, negocio etc.,) funcionales, prácticos y ecológicos. Utilizando principios, estrategias, métodos de Permacultura para mejorar tu calidad de vida y de tu familia en alimentación, salud, vivienda, economía familiar y generación de energía con ahorros 9significativos y otras necesidades materiales y no materiales tu vida.</div><div>02899951143 días consecutivos</div><div>¿Qué fecha sería mejor de las siguientes?</div><div>Enero 23 a Febrero 7 del 2017</div><div>Marzo 05 a Marzo 20 del 2017</div><div>¿Cuales son las principales temas tópicos que curso de diseño de Permacultura te interesa aprender?</div><div>¿Cuáles son tu intereses a mediano y largo plazo en lo que respecta a?</div>¿Producción casera de alimentos: hortalizas, frutales, tierra fértil, aves y animales pequeños?<div>•\tProducción casera de energía o ahorro de la misma: para cocinar, luz, agua, refrigeración&nbsp;</div><div>•\tDiseño de bioconstrucción de cabañas y eco viviendas o ¿como hacer tu vivienda actual más ecológica?</div><div>•\tManejo de desechos y descontaminación del tu entorno</div><div>•\tEstrategias de agua de riego, agua gris y negra y/o manejo de desechos ecológico</div><div>•\t¿Otras?</div><div>•\t¿Cuanto tiempo de práctica en el campo prefieres 20% 30% o hasta 50% del total del tiempo de cada día del curso?</div><div>El curso incluye te y o café y algunas frutas para los descansos intermedios.</div><div>¿Qué prefieres con respecto al desayuno y almuerzo, y para mantener un costo bajo.</div><div>a) Incluye desayuno y almuerzo Por 15 dias</div><div>b) Solo incluye almuerzo Por 15 dias</div><div>c) Traes tu propio almuerzo a (implica ya vienes desayunado)</div><div>Estas opciones influyen en el costo del curso.</div><div>No incluye cena<br><div><br></div><div><br></div><div><br><p><br>.</p></div></div>",
+          "text2": "<p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p>¿Qué ventaja tiene tomar un Curso de Diseño de Permacultura (CDP) ?</p><p>1.\tMejorar la calidad de vida sin gastar más.</p><p>2.\tAhorrar en costos de vida y trabajo de labores diarias.</p><p>3.\tConociciertos significativos y prácticos de integrar la Permacultura en tu vida diaria.</p><p>4.\tHabilidades para desarrollar alternativas viables que reemplacen prácticas locales perjudiciales</p><p>5.\tHerramientas para desarrollar actividades que generen ingresos más sustentables y ecológicamente sanas.</p><p>6.\tHerramientas para encaminar a tu comunidad hacia estilos de vida más saludables y ecológicos.</p><p>7.\tMuchas mas no listadas por ahora.</p><p><br></p>La inversión es de el EQUIVALENTE EN BOLIVARES DE  $9 dólares POR DIA con desayuno y almuerzo&nbsp;<div>opcion B</div><div>La inversión es de EL EQUIVALENTE EN BOLIVARES DE $8 dólares POR DIA  con Solo. almuerzo.</div><div>•\tCuaderno y materiales para escribirLa inversion es el EQUIVALENTE EN BOLIVARES DE$110 dólares sin comidas pero incluye cafe te y algunas frutas.</div><div><p><br></p><p><br></p><p>La inversión te otorga los siguientes materiales:</p><p>•\tCuaderno y materiales para escribir</p><p>•\tIngredientes</p><p>•\tAlgunas semillas</p><p>•\tHojas grandes para proyectos</p><p>•\tMarcadores</p><p>•\tMateriales para hacer demostraciones de Permacultura</p><p>•\tCopias para que no pierdas tiempo en anotar las técnicas de&nbsp;</p><p>•\tCopias de tablas y datos.</p><p>•\tBiblioteca digital traer tu memoria USB</p><p>•\tSitios de internet</p><p>•\t*Apoyo técnico limitado en proyectos caseros.</p><p>.•\tExhibición de documentales</p></div>"
+        }
+      ]
+    },
+    "contacto.html": {
+      "settings": {
+        "order": 6,
+        "title": "contacto"
+      },
+      "components": [
+        {
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#000000"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#000000"
+            },
+            ".link, .dropdown-item": {
+              "color": "#000000"
+            },
+            ".link": {
+              "font-size": "0.75rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.812rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#0e0e0e"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#202020!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#282828"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#000000",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#c0a375!important"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "menu",
+          "_anchor": "menu-12",
+          "_params": {
+            "bgColor": "#282828",
+            "fontSize": 0.75,
+            "fontName": {},
+            "fontColor": "#000000",
+            "fontHoverColor": "@primaryColor",
+            "transparent": true,
+            "sticky": true,
+            "logo": false,
+            "showBrand": false,
+            "collapsed": true,
+            "hideButtons": true
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@THEME_PATH@/components/_images/logo.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com"
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"></a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">COMENZAR</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Asesorias.html\">ASESORIAS</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"talleres.html\">TALLERES</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"encuesta.html\">ENCUESTAS</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\">CDP</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Curso de Permacultura</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Modulos</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\"></a></div></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"true\">CONTACTO</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Mapa</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"contact.html\">Contacto</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\"></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box1",
+          "_anchor": "msg-box1-1z",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#F2F2F2",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "inverse": false,
+            "showButtons": false,
+            "showText": true,
+            "showTitle": true
+          },
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">SEE LIVE DEMO</a>",
+          "text": "Create awesome mobile-friendly websites. No coding and free.",
+          "title": "P"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "contacts2",
+          "_anchor": "contacts2-13",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#90a878",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#3C3C3C",
+            "googleMap": {
+              "placeId": "ChIJn6wOs6lZwokRLKy1iqRcoKw",
+              "address": "350 5th Ave, New York, NY 10118",
+              "state": "ok"
+            }
+          },
+          "text1": "<font color=\"#7c7c7c\" face=\"Montserrat, sans-serif\" size=\"3\"><span style=\"letter-spacing: -1px; line-height: 20px;\"><b>Direccion</b></span></font><br><font color=\"#7c7c7c\" face=\"Montserrat, sans-serif\" size=\"3\"><span style=\"letter-spacing: -1px; line-height: 20px;\"><b><br></b></span></font>El Curso de Diseño se llevara a cabo en <br>los alrededores de Santa Elena de Uierien.<br><br><br>\n<strong>Contactos</strong><br>rodotravels@gmail.com<br>nailaosiogmal.com<br>Naila: &nbsp;(58)&nbsp;04164907832<br>Rodolfo (58)&nbsp;04249291277",
+          "text2": "<strong>sitio &nbsp;bajo construccion</strong><ul><br><br></ul>"
+        }
+      ]
+    },
+    "acerca.html": {
+      "settings": {
+        "title": "ACERCA"
+      },
+      "components": [
+        {
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#f40f0b"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#f40f0b"
+            },
+            ".link, .dropdown-item": {
+              "color": "#f40f0b"
+            },
+            ".link": {
+              "font-size": "0.85rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.921rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#f4ce34"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#f6d755!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#f7da64"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#f40f0b",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#c0a375!important"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "menu",
+          "_anchor": "menu-24",
+          "_params": {
+            "bgColor": "#f7da64",
+            "fontSize": "0.85",
+            "fontName": {},
+            "fontColor": "#f40f0b",
+            "fontHoverColor": "@primaryColor",
+            "transparent": true,
+            "sticky": true,
+            "logo": false,
+            "showBrand": false,
+            "collapsed": true,
+            "hideButtons": true
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@THEME_PATH@/components/_images/logo.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com"
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"></a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">COMENZAR</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Asesorias.html\">ASESORIAS</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"talleres.html\">TALLERES</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"encuesta.html\">ENCUESTAS</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\">CDP</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Curso de Permacultura</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Modulos</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\"></a></div></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"mas.html\" aria-expanded=\"true\" data-toggle=\"dropdown-submenu\">MAS</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Proyectos Actuales</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\" aria-expanded=\"false\">ACERCADE</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\">CONTACTO</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Mapa</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"contact.html\">Contacto</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\"></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "footer1",
+          "_anchor": "footer1-25",
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#323232",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#444444"
+          },
+          "text": "Copyright (c) 2016 Mobirise."
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "contacts2",
+          "_anchor": "contacts2-26",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#90a878",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#3C3C3C",
+            "googleMap": {
+              "placeId": "ChIJn6wOs6lZwokRLKy1iqRcoKw",
+              "address": "350 5th Ave, New York, NY 10118",
+              "state": "ok"
+            }
+          },
+          "text1": "<font color=\"#7c7c7c\" face=\"Montserrat, sans-serif\" size=\"3\"><span style=\"letter-spacing: -1px; line-height: 20px;\"><b>Direccion</b></span></font><br><font color=\"#7c7c7c\" face=\"Montserrat, sans-serif\" size=\"3\"><span style=\"letter-spacing: -1px; line-height: 20px;\"><b><br></b></span></font>El Curso de Diseño se llevara a cabo en <br>los alrededores de Santa Elena de Uierien.<br><br><br>\n<strong>Contactos</strong><br>rodotravels@gmail.com<br>nailaosiogmal.com<br>Naila: &nbsp;(58)&nbsp;04164907832<br>Rodolfo (58)&nbsp;04249291277",
+          "text2": "<strong>sitio &nbsp;bajo construccion</strong><ul><br><br></ul>"
+        }
+      ]
+    },
+    "mas.html": {
+      "settings": {},
+      "components": [
+        {
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#f40f0b"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#f40f0b"
+            },
+            ".link, .dropdown-item": {
+              "color": "#f40f0b"
+            },
+            ".link": {
+              "font-size": "0.85rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.921rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#f4ce34"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#f6d755!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#f7da64"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#f40f0b",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#c0a375!important"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "menu",
+          "_anchor": "menu-27",
+          "_params": {
+            "bgColor": "#f7da64",
+            "fontSize": "0.85",
+            "fontName": {},
+            "fontColor": "#f40f0b",
+            "fontHoverColor": "@primaryColor",
+            "transparent": true,
+            "sticky": true,
+            "logo": false,
+            "showBrand": false,
+            "collapsed": true,
+            "hideButtons": true
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@THEME_PATH@/components/_images/logo.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com"
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"></a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">COMENZAR</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Asesorias.html\">ASESORIAS</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"talleres.html\">TALLERES</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"encuesta.html\">ENCUESTAS</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\">CDP</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Curso de Permacultura</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Modulos</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\"></a></div></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"mas.html\" aria-expanded=\"true\" data-toggle=\"dropdown-submenu\">MAS</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Proyectos Actuales</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\" aria-expanded=\"false\">ACERCADE</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\">CONTACTO</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Mapa</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"contact.html\">Contacto</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\"></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "footer1",
+          "_anchor": "footer1-28",
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#323232",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#444444"
+          },
+          "text": "Copyright (c) 2016 Mobirise."
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "contacts2",
+          "_anchor": "contacts2-29",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#90a878",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#3C3C3C",
+            "googleMap": {
+              "placeId": "ChIJn6wOs6lZwokRLKy1iqRcoKw",
+              "address": "350 5th Ave, New York, NY 10118",
+              "state": "ok"
+            }
+          },
+          "text1": "<font color=\"#7c7c7c\" face=\"Montserrat, sans-serif\" size=\"3\"><span style=\"letter-spacing: -1px; line-height: 20px;\"><b>Direccion</b></span></font><br><font color=\"#7c7c7c\" face=\"Montserrat, sans-serif\" size=\"3\"><span style=\"letter-spacing: -1px; line-height: 20px;\"><b><br></b></span></font>El Curso de Diseño se llevara a cabo en <br>los alrededores de Santa Elena de Uierien.<br><br><br>\n<strong>Contactos</strong><br>rodotravels@gmail.com<br>nailaosiogmal.com<br>Naila: &nbsp;(58)&nbsp;04164907832<br>Rodolfo (58)&nbsp;04249291277",
+          "text2": "<strong>sitio &nbsp;bajo construccion</strong><ul><br><br></ul>"
+        }
+      ]
+    },
+    "cproyectos.html": {
+      "settings": {
+        "title": "Proyectos Actuales"
+      },
+      "components": [
+        {
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#f40f0b"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#f40f0b"
+            },
+            ".link, .dropdown-item": {
+              "color": "#f40f0b"
+            },
+            ".link": {
+              "font-size": "0.85rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.921rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#f4ce34"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#f6d755!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#f7da64"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#f40f0b",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#c0a375!important"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "menu",
+          "_anchor": "menu-2a",
+          "_params": {
+            "bgColor": "#f7da64",
+            "fontSize": "0.85",
+            "fontName": {},
+            "fontColor": "#f40f0b",
+            "fontHoverColor": "@primaryColor",
+            "transparent": true,
+            "sticky": true,
+            "logo": false,
+            "showBrand": false,
+            "collapsed": true,
+            "hideButtons": true
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@THEME_PATH@/components/_images/logo.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com"
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"></a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">COMENZAR</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Asesorias.html\">ASESORIAS</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"talleres.html\">TALLERES</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"encuesta.html\">ENCUESTAS</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\">CDP</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Curso de Permacultura</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Modulos</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\"></a></div></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"mas.html\" aria-expanded=\"true\" data-toggle=\"dropdown-submenu\">MAS</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Proyectos Actuales</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\" aria-expanded=\"false\">ACERCADE</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\">CONTACTO</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Mapa</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"contact.html\">Contacto</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\"></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "footer1",
+          "_anchor": "footer1-2b",
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#323232",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#444444"
+          },
+          "text": "Copyright (c) 2016 Mobirise."
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "contacts2",
+          "_anchor": "contacts2-2c",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#90a878",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#3C3C3C",
+            "googleMap": {
+              "placeId": "ChIJn6wOs6lZwokRLKy1iqRcoKw",
+              "address": "350 5th Ave, New York, NY 10118",
+              "state": "ok"
+            }
+          },
+          "text1": "<font color=\"#7c7c7c\" face=\"Montserrat, sans-serif\" size=\"3\"><span style=\"letter-spacing: -1px; line-height: 20px;\"><b>Direccion</b></span></font><br><font color=\"#7c7c7c\" face=\"Montserrat, sans-serif\" size=\"3\"><span style=\"letter-spacing: -1px; line-height: 20px;\"><b><br></b></span></font>El Curso de Diseño se llevara a cabo en <br>los alrededores de Santa Elena de Uierien.<br><br><br>\n<strong>Contactos</strong><br>rodotravels@gmail.com<br>nailaosiogmal.com<br>Naila: &nbsp;(58)&nbsp;04164907832<br>Rodolfo (58)&nbsp;04249291277",
+          "text2": "<strong>sitio &nbsp;bajo construccion</strong><ul><br><br></ul>"
+        }
+      ]
+    },
+    "page10.html": {
+      "settings": {},
+      "components": [
+        {
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#b8312f"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#b8312f"
+            },
+            ".link, .dropdown-item": {
+              "color": "#b8312f"
+            },
+            ".link": {
+              "font-size": "0.95rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "1.029rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#f4ce34"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#f6d755!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#f7da64"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#b8312f",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#c0a375!important"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "menu",
+          "_anchor": "menu-2d",
+          "_params": {
+            "bgColor": "#f7da64",
+            "fontSize": "0.95",
+            "fontName": {},
+            "fontColor": "#b8312f",
+            "fontHoverColor": "@primaryColor",
+            "transparent": true,
+            "sticky": true,
+            "logo": false,
+            "showBrand": false,
+            "collapsed": true,
+            "hideButtons": true
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@THEME_PATH@/components/_images/logo.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com"
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"></a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">COMENZAR</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Asesorias.html\">ASESORIAS</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"talleres.html\">TALLERES</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"encuesta.html\">ENCUESTAS</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\">CDP</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Curso de Permacultura</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Modulos</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\"></a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\">CONTACTO</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Mapa</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"contact.html\">Contacto</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\"></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "features3",
+          "_anchor": "features3-2e",
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "columns": 4,
+            "showImages": true,
+            "showTitles": true,
+            "showSubtitles": true,
+            "ShowTexts": true,
+            "showButtons": true
+          },
+          "media1": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/gallery/table.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true
+            }
+          },
+          "title1": "Bootstrap 4",
+          "subtitle1": "Bootstrap 4 has been noted",
+          "caption1": "Bootstrap 4 has been noted as one of the most reliable and proven frameworks and Mobirise has been equipped to develop websites using this framework.",
+          "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "media2": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/gallery/desktop.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true
+            }
+          },
+          "title2": "Responsive",
+          "subtitle2": "One of Bootstrap 4's big points",
+          "caption2": "One of Bootstrap 4's big points is responsiveness and Mobirise makes effective use of this by generating highly responsive website for you.",
+          "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "media3": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/gallery/coworkers.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true
+            }
+          },
+          "title3": "Web Fonts",
+          "subtitle3": "Google has a highly exhaustive list of fonts",
+          "caption3": "Google has a highly exhaustive list of fonts compiled into its web font platform and Mobirise makes it easy for you to use them on your website easily and freely.",
+          "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "media4": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/gallery/code-man.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true
+            }
+          },
+          "title4": "Unlimited Sites",
+          "subtitle4": "Mobirise gives you the freedom to develop",
+          "caption4": "Mobirise gives you the freedom to develop as many websites as you like given the fact that it is a desktop app.",
+          "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "media5": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/gallery/windows-books.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true
+            }
+          },
+          "title5": "Trendy Website Blocks",
+          "subtitle5": "Choose from the large selection of blocks",
+          "caption5": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+          "button5": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "media6": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/gallery/room-laptop.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true
+            }
+          },
+          "title6": "Host Anywhere",
+          "subtitle6": "Don't limit yourself to just one platform",
+          "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
+          "button6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>"
         }
       ]
     }
